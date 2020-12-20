@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+
+.event {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.form {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+  
+.form > p {
+    text-align: right;
+}
+  
+.form > p > a {
+    color: #000;
+    font-size: 14px;
+}
+  
+.form-field {
+    height: 46px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    outline: 0;
+    transition: .2s;
+    margin-top: 20px;
+    display: flex;
+    border-color: #000;
+}
+  
+.form-field:focus {
+    border-color: #0f7ef1;
+}
+  
+.form > button, .form > a> button  {
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(to right, #de48b5 0%,#0097ff 100%); 
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+}
+  
+.animation {
+    animation-name: move;
+    animation-duration: .4s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+  
+.a5 {
+    animation-delay: 2.4s;
+}
+  
+.a6 {
+    animation-delay: 2.5s;
+}
+
+input[type='checkbox'], label, input[type='file'] {
+    align-self: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type='file'] {
+    width: 450px;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+}
+
+.date{
+    padding: 0;
+    background-color:white !important;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.bold{
+    font-weight: 525;
+}
+
+.li{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    margin: 15px 25px;
+    color: white;
+    padding: 5px;
+    background-color: #8D3B72;
+    border-radius: 5px;
+}
+
+.ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.img{
+    width: 180px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    height: auto;
+}
+
+.old{
+    background-color: #8A7090;
+}
+
+img{
+    height: 200px;
+}
+
+#QR {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#QR > img {
+    height: 100px;
+}
+
+svg {
+    margin: 10px 20px;
+}

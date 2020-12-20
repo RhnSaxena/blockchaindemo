@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc( 100% - 30px );
+    padding: 15px;
+    color: white;
+    background-color: #8D3B72;
+    -webkit-box-shadow: 0px 3px 9px 4px rgba(48, 50, 50, 0.24);
+    -moz-box-shadow:    0px 3px 9px 4px rgba(48, 50, 50, 0.24);
+    box-shadow:         0px 3px 9px 4px rgba(48, 50, 50, 0.24);
+}
+
+.header-name {
+    font-weight: 300;
+    display: flex;
+    align-self: center;
+    font-size: larger;
+}
+
+.menu-icon {
+    display: none;
+    padding: 0 10px;
+}
+
+.header-name > a {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+}
+
+.header-name > a:hover {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-icon {
+        display: block;
+    }
+}

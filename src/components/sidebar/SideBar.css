@@ -1,0 +1,43 @@
+.sideBar {
+    width: 220px;
+    margin: 80px 0 0 0;
+    background-color: #8A7090;
+    color: white;
+    padding: 15px;
+}
+
+.sideBar-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBar-ul > li {
+    text-decoration: none;
+    display: flex;
+    margin: 5px 5px 5px -15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.sideBar-ul > li > a {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+}
+
+.sideBar-ul > li > a:hover, .activePath{
+    font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 600px) {
+   .sideBar {
+       display: none;
+       position: absolute;
+       height: calc(100% - 80px - 30px);
+       width: 220px;
+       text-align: center;
+       -webkit-box-shadow: 3px 2px 5px 0px rgba(50, 50, 50, 0.62);
+       -moz-box-shadow:    3px 2px 5px 0px rgba(50, 50, 50, 0.62);
+       box-shadow:         3px 2px 5px 0px rgba(50, 50, 50, 0.62);
+   }
+}

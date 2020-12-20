@@ -1,5 +1,5 @@
 build/contracts
-src/contracts
+# src/contracts
 log/
 # Logs
 logs
